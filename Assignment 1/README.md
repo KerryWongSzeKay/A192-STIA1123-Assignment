@@ -1,3 +1,7 @@
+STORY :
+
+https://github.com/KerryWongSzeKay/A192-STIA1123-Assignment/blob/master/Assignment%201/Watch.docx
+
 OUTPUT :
 
 ![image](https://user-images.githubusercontent.com/61194252/83007660-91a6bd00-a046-11ea-977e-1ecfee3d31fc.png)
