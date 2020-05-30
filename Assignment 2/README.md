@@ -20,6 +20,6 @@ Third Frame:
 
 - There have 3 buttons "Analog Watch" ,"Digital Watch", "Smart Watch". After click any button, will print out the watch image and details.
 - If want to go back to the Second Frame can press "BACK" button.
-- Tf want to exit can press the mouse click button "Click Here To EXIT".
+- If want to exit can press the mouse click button "Click Here To EXIT".
 
 ![image](https://user-images.githubusercontent.com/61194252/83010680-34f9d100-a04b-11ea-9b95-ab9709c03fb1.png)
