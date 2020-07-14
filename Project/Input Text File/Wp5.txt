@@ -1,0 +1,41 @@
+ ~~~~~~~ Product Specifications ~~~~~~~~
+
+ Brand		  : SWATCH
+
+ Strap Material	  : Rubber
+
+ Case Size	  : 20mm to 24mm
+
+ Movement Type    : Automatic
+
+ Water Resistance : Waterproof
+
+ Warranty Period  : 1 year
+
+
+ ~~~~~~~ Product Description ~~~~~~~~
+
+Features: 
+> 4 sensors	    : Gravity sensor, 
+		      pedometer sensor, 
+	     	      heart rate sensor (HRS3300), 
+	     	      temperature monitoring device (thermistor)
+
+> Multi functions   : Temperature monitoring, step counting, 
+		      distance measurement, calorie consumption management, 
+		      sleep monitoring, time display, incoming call reminder, 
+		      intelligent alarm clock, heart rate, blood pressure, 
+		      blood oxygen, intelligent remote control camera, 
+		      prevent loss, information push (WeChat, QQ, SMS, Facebook, Twitter).
+
+> 7 sports modes    : Sport Walking, Walking, Running, Indoor Running, Cycling, Climbing, Swimming.
+
+> 1.3 inch TFT screen offers a very clear display with super bright colors.
+
+> Long battery life : 5 days for daily use and the standby time up to 20 days.
+
+Specifications:
+> Charging time			: 1-2h
+> Battery life			: daily use for 5 days, standby for 20 days
+> English name of APP		: LinkTo Sport
+> Support android or iOS version: iOS 9.0 or above, Android 5.1 or above

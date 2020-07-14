@@ -1,0 +1,35 @@
+ ~~~~~~~ Product Specifications ~~~~~~~~
+
+ Brand		  : OEM
+
+ Strap Colour 	  : Multi Colour
+
+ Strap Material	  : Stainless Steel
+
+ Case Shape	  : Round
+
+ Case Material	  : Stainless Steel
+
+ Case Size 	  : Under 10mm
+
+ Water Resistance : Waterproof
+
+ Warranty Period  : NO
+
+
+ ~~~~~~~ Product Description ~~~~~~~~
+
+ Features:
+
+ Body temperature measurement : The body temperature is 
+			        automatically measured throughout the day. 
+			        When the body temperature is measured> 37.3 ℃, the 
+				bracelet will automatically alarm to remind.
+
+ Specifications:               : 
+ Measurement accuracy : ± 0.1 ℃ (measured under the liquid pocket)
+ Measuring range      : 30 ~ 45 ℃
+ Prompt method        : vibration motor
+ Display screen       : LED light display
+ Waterproof level     : IP57
+		 		

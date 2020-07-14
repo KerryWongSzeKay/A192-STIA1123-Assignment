@@ -1,0 +1,30 @@
+~~~~~~~ Product Specifications ~~~~~~~~
+
+Brand      	 : SKMEI
+Strap Material 	 : Plastic
+Case Shape 	 : Square
+Case Material 	 : Silicone
+Case Size	 : Under 50mm
+Glass Type	 : Sapphire Crystal
+Movement Type 	 : Quartz Digital
+Warranty	 : Yes
+Water Resistance : Waterproof
+
+~~~~~~~ Product Description ~~~~~~~~
+
+Item Name	   : Body Temperature Smart Bracelet
+Chipset 	   : SYD8811
+Temperature sensor : NTC thermistor,MF54
+Screen 		   : 0.96 inch 128*96
+Operation	   : touch key
+Watch Size  	   : 42mm*23MM*9.5mm，band size 230mm*18mm*2mm
+Watch band	   : TPU
+Watch Case	   : Plastic with electroplated side frame
+Battery capacity   : 120MAH
+Charging	   : USB
+Waterproof	   : IP67
+Compatibility	   : Android 4.4 iOS 8.4 and above
+Motor	           : Built-in, vibration reminder
+Green product	   : CE, RoHS
+ 
+
