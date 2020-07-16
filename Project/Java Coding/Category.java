@@ -60,21 +60,7 @@ public class Category extends javax.swing.JFrame {
         jLabel3.setIcon(clothesIcon);
         
         
-        /*FileWriter Writer = null;
-        try {
-            File f = new File("Customer Order.txt");
-            /*if(f.exists()){
-                f.delete();
-            }   
-            Writer = new FileWriter(f);
-            Writer.write("***********************************\n");
-            Writer.write(":::::: Record Customer Order ::::::\n");
-            Writer.write("***********************************\n");            
-            Writer.close();
-        }catch(IOException e){
-            
-        }*/
-        
+      
         products = new ArrayList<Product>();
         
         populateArrayList();

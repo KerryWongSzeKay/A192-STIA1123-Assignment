@@ -369,8 +369,6 @@ public class LoginForm extends javax.swing.JFrame {
         if(!login.isEmpty()){
         for(int i=0;i<login.size();i++){
 
-         String a= login.get(i).getUsername();
-         String b= login.get(i).getPassword();
          c= login.get(i).getUsername().contains(useText);
          d= login.get(i).getPassword().contains(pwdText);
             if((count!=1)){
