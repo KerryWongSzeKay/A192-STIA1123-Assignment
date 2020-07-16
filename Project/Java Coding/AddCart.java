@@ -847,7 +847,7 @@ private void clearField(){
     private void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
         // TODO add your handling code here:
         
-        String[] categoryArray = {"< SELECT CATEGORY >","Watches","MakeUp","Shoes","Jewerelly","Clothes"};
+        String[] categoryArray = {"< SELECT CATEGORY >","Watches","MakeUp","Shoes","Jewellery","Clothes"};
 
         JComboBox cb = new JComboBox(categoryArray);
         Object[] selection = { "Select Category :", cb};
@@ -855,58 +855,26 @@ private void clearField(){
         input = JOptionPane.showConfirmDialog(null, selection, "SEARCH PRODUCTS", JOptionPane.OK_CANCEL_OPTION);
         String category = cb.getSelectedItem().toString();
         int count=0;
+        int j=1;
+        boolean a=false;
         if(input==JOptionPane.OK_OPTION){
+             
             for(int i =0; i< products.size(); i++){
-                
-                if((count>=0)&&(products.get(i).getCategory().equalsIgnoreCase(category))){
+                a = products.get(i).getCategory().contains(category);
+                if((a==true)&&(count>=0)&&(products.get(i).getCategory().equals(category))){                   
                     String item = "Item    :"+products.get(i).getItem();
                     String quantity = "Quantity :"+products.get(i).getQuantity();
                     String price = "Price  : "+formatter.format(products.get(i).getPrice());
-                    Object[] result = { "FOUND !!! "+(i+1),"Category : Watches",item,quantity,price};
+                    Object[] result = { "FOUND !!! "+j++,"Category : "+category,item,quantity,price};
                     JOptionPane.showMessageDialog(this,result,"SEARCH RESULT",JOptionPane.OK_OPTION);
                     count++;
-                   }
-                
-                else if((count>=0)&&(products.get(i).getCategory().equalsIgnoreCase(category))){
-                    String item = "Item    :"+products.get(i).getItem();
-                    String quantity = "Quantity :"+products.get(i).getQuantity();
-                    String price = "Price  : "+formatter.format(products.get(i).getPrice());
-                    Object[] result = { "FOUND !!! "+(i+1),"Category : MakeUp",item,quantity,price};
-                    JOptionPane.showMessageDialog(this,result,"SEARCH RESULT",JOptionPane.OK_OPTION);
-                    count++;
+                   }               
+            }
+            if (a==false){                        
+                if((count==0)){                    
+                JOptionPane.showMessageDialog(this,"Not Found!!!","Search Product",JOptionPane.OK_OPTION);
+                count++;
                 }
-                else if((count>=0)&&(products.get(i).getCategory().equalsIgnoreCase(category))){
-                    String item = "Item    :"+products.get(i).getItem();
-                    String quantity = "Quantity :"+products.get(i).getQuantity();
-                    String price = "Price  : "+formatter.format(products.get(i).getPrice());
-                    Object[] result = { "FOUND !!! "+(i+1),"Category : Shoes",item,quantity,price};
-                    JOptionPane.showMessageDialog(this,result,"SEARCH RESULT",JOptionPane.OK_OPTION);
-                    count++;
-                }
-                else if((count>=0)&&(products.get(i).getCategory().equalsIgnoreCase(category))){
-                    String item = "Item    :"+products.get(i).getItem();
-                    String quantity = "Quantity :"+products.get(i).getQuantity();
-                    String price = "Price  : "+formatter.format(products.get(i).getPrice());
-                    Object[] result = { "FOUND !!! ","Category : Jewerelly",item,quantity,price};
-                    JOptionPane.showMessageDialog(this,result,"SEARCH RESULT",JOptionPane.OK_OPTION);
-                    count++;
-                }
-                else if((count>=0)&&(products.get(i).getCategory().equalsIgnoreCase(category))){
-                    String item = "Item    :"+products.get(i).getItem();
-                    String quantity = "Quantity :"+products.get(i).getQuantity();
-                    String price = "Price  : "+formatter.format(products.get(i).getPrice());
-                    Object[] result = { "FOUND !!! "+(i+1),"Category : clothes",item,quantity,price};
-                    JOptionPane.showMessageDialog(this,result,"SEARCH RESULT",JOptionPane.OK_OPTION);
-                    count++;
-                }
-                else if (count==0){
-                    JOptionPane.showMessageDialog(this,"Not Found!!!","Search Product",2);
-                    count++;
-                }
-                else{
-                    
-                }
-                
             }
           
         }
