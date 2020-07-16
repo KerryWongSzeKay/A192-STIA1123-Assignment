@@ -275,7 +275,7 @@ public void saveProductToFile(){
         jPanel3.setForeground(new java.awt.Color(255, 255, 0));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabel2.setText("SHOP NOW !!! JEWERELLY PRODUCTS");
+        jLabel2.setText("SHOP NOW !!! JEWELLERY PRODUCTS");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
